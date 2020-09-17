@@ -1,9 +1,30 @@
-(function($) {
 
-	$(document).ready(function(){
-		$("a").tooltip();
+
+
+
+
+$("form").on("submit", (e) => {
+	e.preventDefault();
+
+	const email = $("#email").val().trim();
+	const name = $("#name").val().trim();
+	const text = $("#text").val().trim();
+
+	const data = {
+		email, 
+		name,
+		text
+	};
+
+	$.post("/email", data, () => {
+		console.log("Server recieved our data");
+		console.log("Data: ", req.body);
 	});
 	
+});
+
+(function($) {
+
 	'use strict';
 
 	// Sticky Menu
