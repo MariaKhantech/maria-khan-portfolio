@@ -17,3 +17,11 @@
 @import 'pages/about';
 
 @import 'pages/portfolio';
+
+.port-img {
+    height: 310px;
+    width: 275px;
+}
+
+.tooltip-arrow,
+.style-tooltip  + .tooltip > .tooltip-inner {background-color: #f00;}

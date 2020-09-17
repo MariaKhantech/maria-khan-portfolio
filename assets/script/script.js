@@ -1,4 +1,9 @@
 (function($) {
+
+	$(document).ready(function(){
+		$("a").tooltip();
+	});
+	
 	'use strict';
 
 	// Sticky Menu

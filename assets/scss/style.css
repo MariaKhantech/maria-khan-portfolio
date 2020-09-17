@@ -930,4 +930,14 @@ textarea.form-control {
 .filter-controls li.active {
   font-weight: bold;
 }
+
+.port-img {
+  height: 310px;
+  width: 275px;
+}
+
+.tooltip-arrow,
+.style-tooltip + .tooltip > .tooltip-inner {
+  background-color: #f00;
+}
 /*# sourceMappingURL=style.css.map */
