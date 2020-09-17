@@ -1,0 +1,23 @@
+{
+  "name": "maria-khan-portfolio",
+  "version": "1.0.0",
+  "description": "![badge](https://img.shields.io/badge/JavaScript-6%25-yellow) ![badge](https://img.shields.io/badge/HTML-75%25-red) ![badge](https://img.shields.io/badge/CSS-17%25-9cf)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaKhantech/maria-khan-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaKhantech/maria-khan-portfolio/issues"
+  },
+  "homepage": "https://github.com/MariaKhantech/maria-khan-portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
