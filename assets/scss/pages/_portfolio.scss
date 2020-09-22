@@ -83,3 +83,29 @@ border-width: .2rem;
 		}
 	}
 }
+
+@media only screen and (max-width:1300px) {
+	
+	.bg-shape-5 {
+		position: absolute;
+		width: 60%;
+		left: 90px;
+		bottom: 50px !important;
+		transform: rotate(180deg);
+	}
+	.bg-shape-6 {
+		position: absolute;
+		width: 10% !important;
+		height: auto;
+		right: 20%;
+		bottom: 100px !important;
+	}
+	.bg-shape-7 {
+	  width:30% !important;
+	  position: absolute;
+	  right: unset !important;
+	  left: 300 !important;
+	  bottom: 0!important;
+	}
+	
+  }

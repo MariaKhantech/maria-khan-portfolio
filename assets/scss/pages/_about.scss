@@ -54,3 +54,25 @@
 		right: -100px;
 	}
 }
+
+@media only screen and (max-width:1300px) {
+	
+	.bg-shape-3 {
+		position: absolute;
+		left: 10%;
+		width: 50%;
+		top: 50px;
+		transform: rotate(180deg);
+	}
+	.bg-shape-5 {
+		position: absolute;
+		width: 25% !important;
+		left: 70% !important;
+		bottom: -2px !important;
+	}
+	.bg-shape-6 {
+	  width:50% !important;
+	  height: auto;
+	  right: 50px !important;
+	}
+  }

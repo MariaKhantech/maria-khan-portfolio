@@ -845,6 +845,28 @@ textarea.form-control {
   right: -100px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .bg-shape-3 {
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    top: 50px;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .bg-shape-5 {
+    position: absolute;
+    width: 25% !important;
+    left: 70% !important;
+    bottom: -2px !important;
+  }
+  .bg-shape-6 {
+    width: 50% !important;
+    height: auto;
+    right: 50px !important;
+  }
+}
+
 .gamerevo {
   height: 400px;
   width: 600px;
@@ -929,6 +951,31 @@ textarea.form-control {
 
 .filter-controls li.active {
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1300px) {
+  .bg-shape-5 {
+    position: absolute;
+    width: 60%;
+    left: 90px;
+    bottom: 50px !important;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .bg-shape-6 {
+    position: absolute;
+    width: 10% !important;
+    height: auto;
+    right: 20%;
+    bottom: 100px !important;
+  }
+  .bg-shape-7 {
+    width: 30% !important;
+    position: absolute;
+    right: unset !important;
+    left: 300 !important;
+    bottom: 0 !important;
+  }
 }
 
 .port-img {
